@@ -1,2 +1,9 @@
-# goal-ledger-site
-Goal Ledger static web release; private source; local-only bookkeeping
+# 目标账本网页
+
+手机访问：https://1829245194.github.io/goal-ledger-site/
+
+本仓库仅包含网页运行文件，完整开发源码位于私有仓库中。网页的 JavaScript、样式与图标可公开读取。
+
+账单、收入、存款和备份仅由使用者保存在自己的浏览器里，未提交到此仓库。首次使用创建空账本或导入自己的 JSON 备份，不会自动跨设备同步。
+
+main 分支更新后由 GitHub Pages 自动发布。

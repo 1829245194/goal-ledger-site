@@ -1,5 +1,5 @@
 
-const CACHE="goal-ledger-_goal_ledger_site_-1795779056190",PREFIX="goal-ledger-_goal_ledger_site_-",BASE="/goal-ledger-site/",URLS=["/goal-ledger-site/","/goal-ledger-site/index.html","/goal-ledger-site/icon.svg","/goal-ledger-site/icon-192.png","/goal-ledger-site/icon-512.png","/goal-ledger-site/manifest.webmanifest","/goal-ledger-site/assets/index-B8N6Huwl.css","/goal-ledger-site/assets/index-CsyESsiH.js"];
+const CACHE="goal-ledger-_goal_ledger_site_-1795798511502",PREFIX="goal-ledger-_goal_ledger_site_-",BASE="/goal-ledger-site/",URLS=["/goal-ledger-site/","/goal-ledger-site/index.html","/goal-ledger-site/icon.svg","/goal-ledger-site/icon-192.png","/goal-ledger-site/icon-512.png","/goal-ledger-site/manifest.webmanifest","/goal-ledger-site/assets/index-Bs1iWWe_.css","/goal-ledger-site/assets/index-DNQ6UUqq.js"];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(URLS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{
